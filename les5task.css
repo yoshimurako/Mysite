@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 249, 240);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.header {
+    background-color: rgb(149, 0, 255);
+    color: white;
+    height: 80px;
+    margin: 5px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.block {
+    width: 32%;
+    background-color: rgb(231, 206, 255);
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.block>h3 {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,32 @@
+form {
+    background-color: rgb(212, 212, 212);
+    padding: 20px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(173, 173, 173);
+    color: black;
+    border-radius: 80px;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(108, 108, 108);
+    color: white;
+}
+button[type="reset"] {
+    padding: 10px 10px;
+    background-color: rgb(98, 98, 98);
+    color: black;
+    border-radius: 80px;
+}
+button[type="reset"]:hover {
+    padding: 10px 10px;
+    background-color: rgb(129, 129, 129);
+    color: black;
+    border-radius: 80px;
+}
+
+input {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: aquamarine;
+}
+.block {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid white;
+}
+.block1 {
+    width: 200px;
+    height: 40px;
+}
+.block2 {
+    width: 140px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.block3 {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 10px solid white;
+}

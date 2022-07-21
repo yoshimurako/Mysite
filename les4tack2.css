@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: brown;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.block {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(123, 0, 255);
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 40%;
+}
+
+.column1 {
+float: left;
+width: 300px;
+height: 120px;
+margin-top: 20px;
+}
+.column2 {
+float: right;
+height: 120px;
+margin-top: 20px;
+}
+.column3 {
+margin: 5px auto;
+clear: both;
+height: 120px;
+margin-top: 20px;
+}

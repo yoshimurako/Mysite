@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color:rgb(136, 0, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.active > a {
+    background-color:rgb(57, 0, 156);
+    border-radius: 80px;
+}
+.active > a:hover {
+    color: rgb(176, 133, 255);
+}
